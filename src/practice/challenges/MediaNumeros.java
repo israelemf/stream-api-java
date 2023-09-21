@@ -16,7 +16,5 @@ public class MediaNumeros {
         System.out.println("Lista de números: " + numeros);
         System.out.println("Números maiores que cinco: " + numerosMaiorCinco);
         System.out.println("Média dos números maiores que cinco: " + media);
-
-
     }
 }
