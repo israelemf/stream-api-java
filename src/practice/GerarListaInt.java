@@ -8,8 +8,8 @@ public class GerarListaInt {
     private List<Integer> numeros = new ArrayList<>();
 
     public List<Integer> getNumeros() {
-        for (int i = 1; i <= 20; i++) {
-            numeros.add(ThreadLocalRandom.current().nextInt(1, 100));
+        for (int i = 1; i <= 30; i++) {
+            numeros.add(ThreadLocalRandom.current().nextInt(-30, 100));
         }
         return numeros;
     }
