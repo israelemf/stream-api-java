@@ -1,4 +1,4 @@
-package challenges;
+package practice;
 
 import java.util.ArrayList;
 import java.util.List;
