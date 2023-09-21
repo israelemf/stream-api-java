@@ -28,13 +28,11 @@ public class PredicateExample {
         System.out.println("Números pares");
         numerosPares.forEach(System.out::println);
 
-
         // Criar uma lista de String
         List<String> palavras = Arrays.asList("Java", "Kotlin", "Python", "Javascript", "C", "GO", "Ruby");
 
         // Declarando o Predicate no Método Filter do Stream API para verificar se a palavra tem mais de 5 letras e exibir
         System.out.println("\nPalavras com mais de 5 caracteres");
         palavras.stream().filter(numero -> numero.length() > 5).forEach(System.out::println);
-
     }
 }
