@@ -15,6 +15,5 @@ public class SomaElementos {
         System.out.println("Lista de números: " + numeros);
 
         System.out.println("Soma dos números da lista: " + somaLista);
-
     }
 }
