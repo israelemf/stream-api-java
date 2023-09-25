@@ -16,9 +16,5 @@ public class ProdutoNumerosLista {
         System.out.println("Lista de números: " + numeros);
 
         System.out.println("Produto: " + produto);
-
-
-
-
     }
 }
