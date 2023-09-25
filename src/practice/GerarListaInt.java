@@ -8,7 +8,7 @@ public class GerarListaInt {
     private List<Integer> numeros = new ArrayList<>();
 
     public List<Integer> getNumeros() {
-        for (int i = 1; i <= 15; i++) {
+        for (int i = 1; i <= 5; i++) {
             numeros.add(ThreadLocalRandom.current().nextInt(0, 50));
         }
         return numeros;
