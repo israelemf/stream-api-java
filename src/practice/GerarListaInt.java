@@ -9,7 +9,7 @@ public class GerarListaInt {
 
     public List<Integer> getNumeros() {
         for (int i = 1; i <= 15; i++) {
-            numeros.add(ThreadLocalRandom.current().nextInt(0, 50));
+            numeros.add(ThreadLocalRandom.current().nextInt(1, 50));
         }
         return numeros;
     }
